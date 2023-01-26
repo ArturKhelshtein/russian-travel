@@ -17,9 +17,10 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 690px) {
   .intro {
     padding-left: 16px;
+    padding-right: 16px;
     padding-bottom: 64px;
   }
 }

@@ -1,5 +1,5 @@
 .lead__image {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   width: 100%;
-  overflow: hidden;
+  object-fit: cover;
 }

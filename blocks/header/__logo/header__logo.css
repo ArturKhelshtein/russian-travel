@@ -1,5 +1,10 @@
 .header__logo {
   width: 176px;
+  transition: opacity 1s linear;
+}
+
+.header__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 500px) {

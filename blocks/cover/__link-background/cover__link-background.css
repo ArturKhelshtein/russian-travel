@@ -1,0 +1,46 @@
+.cover__link-background {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 245px 0;
+  background: url("../../../images/cover__background.jpg") no-repeat center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cover__link-background::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 1s linear;
+}
+
+.cover__link-background:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1100px) {
+  .cover__link-background {
+    padding: 195px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .cover__link-background {
+    padding: 115px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .cover__link-background {
+    padding: 33px 0;
+  }
+}

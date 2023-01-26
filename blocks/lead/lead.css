@@ -1,5 +1,4 @@
 .lead {
-  padding-top: 136px;
   padding-left: 148px;
   padding-right: 148px;
   padding-bottom: 92px;
@@ -12,7 +11,6 @@
 
 @media (max-width: 1100px) {
   .lead {
-    padding-top: 128px;
     padding-left: 48px;
     padding-right: 48px;
   }
@@ -28,7 +26,6 @@
 
 @media (max-width: 500px) {
   .lead {
-    padding-top: 106px;
     padding-bottom: 64px;
   }
 }
