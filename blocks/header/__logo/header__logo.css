@@ -1,5 +1,6 @@
 .header__logo {
   width: 176px;
+  opacity: 1;
   transition: opacity 1s linear;
 }
 

@@ -6,6 +6,7 @@
   text-decoration: none;
   border-bottom: 1px solid #fff;
   text-rendering: optimizeLegibility;
+  opacity: 1;
   transition: opacity 1s linear;
 }
 
