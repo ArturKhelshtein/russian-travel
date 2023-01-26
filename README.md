@@ -21,3 +21,5 @@
 . Выполонены проверки: *чек-лист Яндекса; *валидатор W3C (https://validator.w3.org/nu/#textarea); *БЭМ валидатор (https://nglazov.github.io/bem-validator-page/); *генератор HTML-дерева (https://yoksel.github.io/html-tree/); *визуальная проверка в граничных точках 320px/768px/1024px/1280px; *визуальная проверка переполнения блоков на экранах всех ширин.
 
 ## ссылка GitHub Pages:
+
+https://arturkhelshtein.github.io/russian-travel/
