@@ -1,0 +1,7 @@
+.header__lang-link-container {
+  margin: 0 0 10px 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}

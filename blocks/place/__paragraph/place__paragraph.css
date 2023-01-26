@@ -1,0 +1,9 @@
+.place__paragraph {
+  grid-area: description;
+}
+
+@media (max-width: 700px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}

@@ -1,0 +1,35 @@
+.place__card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: calc(50% - 32px) calc(50% - 8px);
+  grid-template-areas:
+    "title link"
+    "photo description";
+  gap: 48px 40px;
+}
+
+@media (max-width: 1100px) {
+  .place__card {
+    grid-template-columns: calc(50% - 24px) calc(50% - 8px);
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .place__card {
+    grid-template-columns: calc(50% - 20px) calc(50% - 8px);
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 700px) {
+  .place__card {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "title"
+      "link"
+      "photo"
+      "description";
+    gap: 32px;
+  }
+}

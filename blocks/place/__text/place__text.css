@@ -1,0 +1,19 @@
+.place__text {
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 161%;
+  text-rendering: optimizeLegibility;
+}
+
+.place__text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}

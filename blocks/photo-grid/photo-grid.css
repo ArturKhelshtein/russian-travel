@@ -1,0 +1,37 @@
+.photo-grid {
+  margin: 0;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 92px;
+  max-width: 1280px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 1100px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .photo-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 88px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .photo-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 64px;
+    gap: 12px;
+  }
+}
