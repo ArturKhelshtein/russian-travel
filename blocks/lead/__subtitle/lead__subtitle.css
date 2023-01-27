@@ -24,3 +24,17 @@
     line-height: 20px;
   }
 }
+
+@media (max-width: 800px) {
+  .lead__subtitle {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__subtitle {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
